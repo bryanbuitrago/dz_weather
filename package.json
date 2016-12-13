@@ -17,6 +17,7 @@
     "express": "^4.14.0",
     "express-session": "^1.14.0",
     "mustache-express": "^1.2.2",
-    "pg-promise": "^5.2.7"
+    "pg-promise": "^5.2.7",
+    "request": "^2.79.0"
   }
 }
