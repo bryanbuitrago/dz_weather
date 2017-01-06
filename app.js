@@ -116,11 +116,15 @@ db.one(
 });
 });
 
+app.post('/delete', function(req, res){
+  console.log('Deleted user from the DB');
+  // res.send('Deleted!!!!!!');
+})
+
+
 app.listen(3000, function () {
 console.log('listening on port 3000!');
 });
-
-
 
 // ================= nick's version ===================
 // const express = require('express');

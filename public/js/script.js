@@ -45,5 +45,14 @@ var sendSearchData = function(zone){
     });
   };
 
+  var deleteUser = function(){
+  $('#delete').on('click', function(){
+    $.ajax({
+      url: '/delete',
+      method: 'POST'
+    });
+  });
+};
+
 });
 
