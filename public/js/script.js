@@ -50,9 +50,12 @@ var sendSearchData = function(zone){
     $.ajax({
       url: '/delete',
       method: 'POST'
-    });
+    }).done(function(){
+      console.log('Your Account has been deleted!! Thank you for using our services!!');
+    })
   });
 };
+deleteUser();
 
 });
 

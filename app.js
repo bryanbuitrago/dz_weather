@@ -118,7 +118,7 @@ db.one(
 
 app.post('/delete', function(req, res){
   console.log('Deleted user from the DB');
-  // res.send('Deleted!!!!!!');
+  res.send('User Deleted!!!!!!');
 })
 
 
